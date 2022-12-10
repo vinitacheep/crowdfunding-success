@@ -50,7 +50,9 @@ To view the scripts and run the end-to-end model, run the following:
 ```
 $ conda env create -f environment.yml
 $ conda activate cs230proj 
+$ jupyter notebook
 ```
-You can now load the notebook from GitHub and view. 
+You can now load the notebook from GitHub into the virtual environment to view. 
+
 Runs on Linux only. May require xvfb package on headless systems.
 
