@@ -11,8 +11,14 @@ This code requires Torch. If you're on Ubuntu, installing Torch in your home dir
 $ pip install torch
 ```
 
-In addition, run the import statements in [import.py] to install all necessary packages. 
+In addition, run the import statements in ```[import.py]``` to import all necessary packages. 
  
 ## Implementation
+### Data Preprocessing
+We used data extracted from the largest crowdfunding platform, GoFundMe, from its inception
+in May 2010 through December 2020 using a webscraper. This data was loaded as the dataset and processed 
+using a tokenizer method. This script can be found in ```[preprocess.py]```. 
+
+### LSTM Model Definition 
 
 
