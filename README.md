@@ -28,7 +28,7 @@ Specifically,
 ```Additional_dataset_filtering__silver_et_al_.py``` provides additional dataset filtration. 
 
 
-### Model Definition 
+### Model Definition / Experimentation 
 For our binary text classification, we opted to utilize an LSTM Model. We tried a variety of models, found in the ```models``` directory. 
 Specifically, 
 
@@ -40,8 +40,8 @@ Specifically,
 
 ```LSTM_with_numerical_features.py``` contains the LSTM model combining story text and various numerical features as inputs.
 
-### Experimentation / Evaluation 
-Our various model evaluations can be viewed in ```evaluate.py```
+### Evaluation 
+Our various model evaluations can be viewed in ```evaluation.py```, which is a excerpt from ```LSTM.py```
 
 ## Running scripts
 To view the scripts and run the end-to-end model, run the following: 
