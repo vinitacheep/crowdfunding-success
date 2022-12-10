@@ -11,7 +11,7 @@ This code requires Torch. If you're on Ubuntu, installing Torch in your home dir
 $ pip install torch
 ```
 
-In addition, check ```[import.py]``` to view all necessary packages to import.  
+In addition, check ```[import.py](https://github.com/vinitacheep/crowdfunding-success/import.py)``` to view all necessary packages to import.  
  
  
  
