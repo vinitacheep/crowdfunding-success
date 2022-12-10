@@ -11,7 +11,7 @@ This code requires Torch. If you're on Ubuntu, installing Torch in your home dir
 $ pip install torch
 ```
 
-In addition, check ```[import.py](https://github.com/vinitacheep/crowdfunding-success/import.py)``` to view all necessary packages to import.  
+In addition, check ```import.py``` to view all necessary packages to import.  
  
  
  
@@ -20,16 +20,16 @@ In addition, check ```[import.py](https://github.com/vinitacheep/crowdfunding-su
 ### Data Preprocessing
 We used data extracted from the largest crowdfunding platform, GoFundMe, from its inception
 in May 2010 through December 2020 using a webscraper. This data was loaded as the dataset and processed 
-using a tokenizer method. This script can be found in ```[preprocess.py]```. 
+using a tokenizer method. This script can be found in ```preprocess.py```. 
 
 ### LSTM Model Definition 
 For our binary text classification, we opted to utilize an LSTM Model, which is defined in ```[LSTM_model.py]```
 
 ### Loss Function
-The negative log likelihood loss function script can be viewed in ```[loss.py]```
+The negative log likelihood loss function script can be viewed in ```loss.py```
 
 ### Experimentation / Evaluation 
-Our various model evaluations can be viewed in ```[evaluate.py]```
+Our various model evaluations can be viewed in ```evaluate.py```
 
 ## Jupyter Notebook
 To view the scripts in Jupyter Notebook and run the end-to-end model, run the following: 
