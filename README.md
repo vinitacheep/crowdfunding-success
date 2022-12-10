@@ -46,12 +46,12 @@ The negative log likelihood loss function script can be viewed in ```loss.py```
 ### Experimentation / Evaluation 
 Our various model evaluations can be viewed in ```evaluate.py```
 
-## Jupyter Notebook
-To view the scripts in Jupyter Notebook and run the end-to-end model, run the following: 
+## Running scripts
+To view the scripts and run the end-to-end model, run the following: 
 ```
 $ conda env create -f environment.yml
 $ conda activate cs230proj 
 ```
-Then, run ```$ jupyter notebook``` to open the Jupyter Notebook webpage. You can now load the notebook from GitHub and view. 
+You can now load the notebook from GitHub and view. 
 Runs on Linux only. May require xvfb package on headless systems.
 
