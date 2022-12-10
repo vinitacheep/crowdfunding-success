@@ -21,8 +21,10 @@ In addition, check ```import.py``` to view all necessary packages to import.
 We used data extracted from the largest crowdfunding platform, GoFundMe, from its inception
 in May 2010 through December 2020 using a webscraper. This data was loaded as the dataset and processed 
 using a tokenizer method. The pertinent files are found in the ```dataset``` directory. 
-Specifically, 
-```Clean_master_dataset.py``` loads the dataset and preprocesses. 
+Specifically,  
+
+```Clean_master_dataset.py``` loads the dataset and preprocesses.  
+
 ```Additional_dataset_filtering__silver_et_al_.py``` provides additional dataset filtration. 
 
 
