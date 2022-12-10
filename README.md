@@ -32,6 +32,8 @@ Specifically,
 For our binary text classification, we opted to utilize an LSTM Model. We tried a variety of models, found in the ```models``` directory. 
 Specifically, 
 
+```elmomodel1.pynb``` contains an ELMo model utilized to create word embeddings to feed the classifier. Ultimately, this model was not used. 
+
 ```logistic_regression_and_T_SNE_plot.py``` contains the baseline logistic regression model used. Data was visualized in a t-SNE plot. 
 
 ```SVM_Naive_Bayes.py``` contains both an SVM model and a Naive Bayes model as classifiers. 
