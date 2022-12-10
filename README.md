@@ -11,7 +11,7 @@ This code requires Torch. If you're on Ubuntu, installing Torch in your home dir
 $ pip install torch
 ```
 
-In addition, run the import statements in ```[import.py]``` to import all necessary packages. 
+In addition, check ```[import.py]``` to view all necessary packages to import.  
  
  
  
