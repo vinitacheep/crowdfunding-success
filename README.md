@@ -20,7 +20,11 @@ In addition, check ```import.py``` to view all necessary packages to import.
 ### Data Preprocessing
 We used data extracted from the largest crowdfunding platform, GoFundMe, from its inception
 in May 2010 through December 2020 using a webscraper. This data was loaded as the dataset and processed 
-using a tokenizer method. This script can be found in ```preprocess.py```. 
+using a tokenizer method. The pertinent files are found in the ```dataset``` directory. 
+Specifically, 
+```Clean_master_dataset.py``` loads the dataset and preprocesses. 
+```Additional_dataset_filtering__silver_et_al_.py``` provides additional dataset filtration. 
+
 
 ### LSTM Model Definition 
 For our binary text classification, we opted to utilize an LSTM Model, which is defined in ```LSTM_model.py```
