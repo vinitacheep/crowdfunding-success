@@ -23,7 +23,7 @@ in May 2010 through December 2020 using a webscraper. This data was loaded as th
 using a tokenizer method. This script can be found in ```preprocess.py```. 
 
 ### LSTM Model Definition 
-For our binary text classification, we opted to utilize an LSTM Model, which is defined in ```[LSTM_model.py]```
+For our binary text classification, we opted to utilize an LSTM Model, which is defined in ```LSTM_model.py```
 
 ### Loss Function
 The negative log likelihood loss function script can be viewed in ```loss.py```
