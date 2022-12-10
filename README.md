@@ -36,12 +36,9 @@ Specifically,
 
 ```SVM_Naive_Bayes.py``` contains both an SVM model and a Naive Bayes model as classifiers. 
 
-```LSTM.py``` contains the LSTM model run on purely the story text of campaigns. 
+```LSTM.py``` contains the LSTM model run on purely the story text of campaigns. The negative log likelihood loss function ```nn.NLLLoss()``` was used as the loss function
 
 ```LSTM_with_numerical_features.py``` contains the LSTM model combining story text and various numerical features as inputs.
-
-### Loss Function
-The negative log likelihood loss function script can be viewed in ```loss.py```
 
 ### Experimentation / Evaluation 
 Our various model evaluations can be viewed in ```evaluate.py```
